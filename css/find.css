@@ -1,0 +1,32 @@
+.find .find__header-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+.find .header-btn__icon{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.find .find__header-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.find .find__title{
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.find .friend__column-right i{
+    padding: 12px 15px;
+    background-color: rgb(235, 235, 235);
+    font-size: 12px;
+    border-radius: 5px;
+    
+}

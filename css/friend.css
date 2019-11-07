@@ -18,15 +18,32 @@
 
 }
 
-.friend{
+.friends .friend{
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
 }
 
-.friend .friend__column{
+.friends .index{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.friend .friend__column-left{
     display: flex;
     align-items: center;
 }
+
+.friend .friend__column-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    align-items: flex-end;
+
+}
+
 
 .friend__content .friend__name{
     display:block;
@@ -50,4 +67,49 @@
 
 .friend__content .friend__bottom-text{
     font-size: 14px;
+}
+
+
+.friends .friend__badge{
+    top: -8px;
+    right: -8px;
+    font-size: 8px;
+    color: white;
+    background-color: #dc5d46;
+    width: 16px; 
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.friends .friends__title{
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.friends .friends__plus{
+    margin: 15px 0;
+    padding: 15px 0;
+    border-top: 1px solid rgb(248, 248, 248);
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+h5 {
+    display: flex;
+}
+
+.friends .friend__now-listening{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid rgb(16, 177, 16);
+    border-radius: 14px;
+    align-items: center;
+}
+
+.friends .friend__now-listening .song{
+    font-size: 12px;
+    opacity: 0.6;
 }
